@@ -7,7 +7,12 @@
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
 }
-
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+/*copied and paste carousel from bootstrap to cheesecake css logo-navbar*/
 .navbar-fixed-top .nav {
     padding: 15px 0;
 }
