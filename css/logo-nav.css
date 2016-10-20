@@ -7,19 +7,24 @@
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
 }
+
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
   }
-/*copied and paste carousel from bootstrap to cheesecake css logo-navbar*/
 .navbar-fixed-top .nav {
     padding: 15px 0;
 }
+/*change the background color*/
+
 .navbar-inverse{
-background-color:#0069;}
+background-color:#ff0;}
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
+}
+.navbar-inverse .navbar-nav > li >a
+color:#069;
 }
 
 @media(min-width:768px) {
